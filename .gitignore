@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# build / run artefacts
+dist/
+work/
+*.pt
+*.sdf
+*.jsonl
+
+# datasets (attach these on Kaggle; never commit them)
+extracted_receptor/
+extracted_ligand/
+extracted_fasta/
+graphs/
+graphs_affinity/
+*.csv
+!docs/*.csv
+
+.DS_Store
